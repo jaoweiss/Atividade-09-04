@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Atividade</title>
+</head>
+<body>
+    <div class="divGeral">
+        <p>Escreva uma mensagem de "Olá Mundo"</p>
+        <button type="button" onclick="olamundo()">Aperte</button>
+    </div>
+    <div class="divGeral">
+        <p>Faça uma saída de soma de 2 inteiros</p>
+        <div>
+            <div>
+              <label for="number1">Número 1: </label>
+              <input type="text" id="number1">
+            </div>
+    
+            <div>
+              <label for="number2">Número 2: </label>
+              <input type="text" id="number2">
+            </div>
+            <button onclick="soma()">Somar</button>
+            <p id="soma"></p>
+        </div>
+    </div>
+    <div class="divGeral">
+        <p>Altera a propriedade de um elemento por id</p>
+        <div id="div1">
+            <button onclick="colorById()">Trocar</button>
+        </div>
+    </div>
+    <div class="divGeral">
+        <p>Altera a propriedade de um elemento por name</p>
+            <div name="div"><button onclick="colorByName()">Trocar</button></div>
+    </div>
+    <div class="divGeral">
+        <p>Altere a propriedade de um elemento por class</p>
+      <div class="div"><button onclick="colorByClass()">Trocar</button></div>
+    </div>
+    
+</body>
+</html>

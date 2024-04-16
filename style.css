@@ -1,0 +1,27 @@
+.divGeral {
+    background-color: rgb(165, 165, 165);
+    height: 200px;
+    width: 500px;
+    border: 3px solid black;
+    position: relative;
+    top: 50%;
+    left: 25%;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+.divSoma {
+    height: 30px;
+    width: 80px;
+    border: 1px solid black;;
+    margin: 0 auto;
+    
+}
+
